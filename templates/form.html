@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<title>pastebin</title>
+	</head>
+	
+	<style>
+		#a{
+			font-size:50px;
+			text-align:center;
+		}
+		#b{
+			text-align:center;
+		}
+	</style>
+	
+	<body>
+		<div id='a'> Pastebin </div>
+		<br>
+		<div id='b'>
+			<form name="form" action="pastebin" method="post">
+				Poster:<input type="text" name="poster" />
+				<br><br><br>
+				Content:
+				<br>
+				<textarea name="content" cols="100" rows="30"></textarea>
+				<br>
+				<input type="submit" value="Paste!"/>
+		</div>
+		</form>
+	</body>
+</html>
